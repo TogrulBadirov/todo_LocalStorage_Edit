@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+}
+
+li {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 1px solid black;
+}
+li input {
+  margin-top: 10px;
+  border: none;
+}
+
+#addInput {
+  margin: 10px auto;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 3px;
+  background: linear-gradient(#e66465, #9198e5);
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+}/*# sourceMappingURL=main.css.map */
